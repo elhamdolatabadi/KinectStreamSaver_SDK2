@@ -1,0 +1,139 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APP                 ICON                    "app.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_APP DIALOGEX 0, 0, 1005, 486
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "Kinect2"
+CLASS "KinectSourcesClass"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_VIDEOVIEW,"Static",SS_BLACKFRAME,21,7,351,401
+    LTEXT           "",IDC_STATUS,8,415,363,11,SS_SUNKEN
+    CONTROL         "",IDC_ColorView,"Static",SS_BLACKFRAME,397,6,390,202
+    CONTROL         "",IDC_DepthView,"Static",SS_BLACKFRAME,397,236,390,202
+    LTEXT           "Local Disk (i.e. D ) (default is C)",IDC_STATIC,810,56,67,23
+    LTEXT           "Folder Name (Optional)",IDC_STATIC,812,75,56,18
+    LTEXT           "Color",IDC_STATIC,803,215,21,9
+    LTEXT           "No. of frames per second for recording color and depth sources; the default is 8 fps.",IDC_STATIC,808,120,116,31
+    LTEXT           "Skeleton",IDC_STATIC,802,193,30,9
+    LTEXT           "Depth",IDC_STATIC,802,250,21,9
+    PUSHBUTTON      "Capture",IDC_Capture,881,156,54,18
+    PUSHBUTTON      "Stop",IDC_Stop,936,156,54,18
+    EDITTEXT        IDC_SubjFolder,878,58,98,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TaskFolder1,877,76,99,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TaskFolder2,878,96,99,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_Skel,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,838,193,55,9
+    CONTROL         "Image",IDC_ColorImage,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,838,211,48,9
+    CONTROL         "Binary",IDC_ColorRaw,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,838,220,43,9
+    CONTROL         "Image",IDC_DepthImage,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,838,243,43,9
+    CONTROL         "Binary",IDC_DepthRaw,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,838,252,42,9
+    CONTROL         "BackGround",IDC_BG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,838,272,70,9
+    LTEXT           "...",IDC_s1,899,191,47,15
+    LTEXT           "...",IDC_s2,949,191,47,15
+    LTEXT           "...",IDC_r1,899,212,47,15
+    LTEXT           "...",IDC_r2,949,212,47,15
+    LTEXT           "...",IDC_d1,899,244,47,15
+    LTEXT           "...",IDC_d2,949,244,47,15
+    LTEXT           "",IDC_STATUS2,397,211,363,11,SS_SUNKEN
+    LTEXT           "",IDC_STATUS3,395,442,363,11,SS_SUNKEN
+    EDITTEXT        IDC_fps,927,123,22,12,ES_AUTOHSCROLL
+    LTEXT           "SubFolder Name (Optional)",IDC_STATIC,812,95,65,18
+    LTEXT           "...",IDC_bg1,899,271,47,15
+    LTEXT           "...",IDC_bg2,949,271,47,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_APP, DIALOG
+    BEGIN
+        RIGHTMARGIN, 998
+        BOTTOMMARGIN, 469
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
